@@ -20,10 +20,10 @@ def build_model(input_node_num):
     ###   code here  #####
     model.add(Dense(40,input_dim=5))
     model.add(Activation('relu'))
-    model.add(Dropout(0.2))
+    #model.add(Dropout(0.2))
     model.add(Dense(40))
     model.add(Activation('relu'))
-    model.add(Dropout(0.2))
+    #model.add(Dropout(0.2))
     model.add(Dense(4))
     model.add(Activation('softmax'))
     ###   code here  #####
